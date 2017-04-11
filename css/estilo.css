@@ -1,0 +1,95 @@
+/* -- HEADER -- */
+.navbar {
+	margin-bottom: 0;
+	background: #E6E6E6;
+
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #e5e5e5;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #333;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+
+
+
+
+.jumbotron {
+	background:#428BCA;
+	color:#fff;
+	padding:20px 0;
+}
+
+/* -- POST -- */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #999;
+}
+
+.post .post-title a {
+	color:#333;
+}
+
+.post .thumb {
+	margin-right:10px;
+	width:40%;
+}
+
+.post .thumb img {
+	width:100%;
+}
+
+.post .contenedor-botones {
+	width: 100%;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
